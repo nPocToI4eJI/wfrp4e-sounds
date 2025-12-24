@@ -1,0 +1,15 @@
+{
+	"WFRP4E.Sounds": {
+		"checkPath": {
+			"Name": "Do not check the path to the sounds folder",
+			"Hint": "If enabled, the game will not verify the \"{label}\" setting upon loading."
+		},
+		"Dialog": {
+			"Content": "The setting for \"{label}\" specifies an invalid path to the module's sound effects folder.",
+			"Path": "Current path",
+			"Empty": "None",
+			"Confirm": "Change?",
+			"Hide": "Do not show again"
+		}
+	}
+}
