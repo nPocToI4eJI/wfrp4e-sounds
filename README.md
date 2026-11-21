@@ -112,3 +112,96 @@
 * **[WFRP4e - Tools](https://github.com/nPocToI4eJI/wfrp4e-tools)** *(обязателен)* - базовый модуль инструментов, улучшений и исправлений для системы **Warhammer Fantasy Roleplay 4th Edition** в Foundry VTT.
 * **[WFRP4e - Assistant](https://github.com/nPocToI4eJI/wfrp4e-assistant)** - этот модуль позволит Мастеру разнообразить НИП и их отыгрыш с помощью встроенных инструментов автоматизации.
 * **[WFRP4e - Looting](https://github.com/nPocToI4eJI/wfrp4e-looting)** - этот модуль поможет Мастеру оптимизировать процесс создания уникального лута.
+
+---
+
+<a id="-english"></a>
+
+**WFRP4e - Sounds** is a sound effects pack for **Warhammer Fantasy Roleplay 4th Edition** on Foundry VTT, built specifically for the audio system of **[WFRP4e - Tools](https://github.com/nPocToI4eJI/wfrp4e-tools)**. It adds context-aware audio feedback for combat, skill tests, magic, equipment, and critical events, including alternative sounds for "Funny" mode.
+
+> [!IMPORTANT]
+> This module **requires** the core **[WFRP4e - Tools](https://github.com/nPocToI4eJI/wfrp4e-tools)** module to be installed and enabled.
+
+### 📋 Contents
+- [Reference & Progress](#en-spreadsheet)
+- [Pack Contents](#en-contents)
+- [Setup & Custom Sounds](#en-setup)
+- [Contributing](#en-contribute)
+- [Related Modules](#en-modules)
+
+---
+
+<a id="en-spreadsheet"></a>
+### 📊 Reference & Progress
+
+The pack is actively growing and expanding. An up-to-date list of all **supported sound keys**, their completion status, naming rules, and guidelines for sourcing files is maintained in [📖 **WFRP4e Sounds - Reference**](https://docs.google.com/spreadsheets/d/1FwN79LzXZ7cuEs-CFIIxmvJt3y-iPkPzE3fYUNER9B8/edit?usp=sharing).
+
+In the spreadsheet, you will find:
+* A complete list of categories, folders, and file keys for all in-game events.
+* Completion priorities (*Core ★* and *Additional*).
+* Current file upload progress.
+* Detailed instructions and sample search queries for sourcing your own sounds.
+
+---
+
+<a id="en-contents"></a>
+### 📂 Pack Contents
+
+The module currently includes **134 sound files** (96 standard and 38 for "Funny" mode). All sounds are sourced from [**Freesound** (CC0)](https://freesound.org/) and [**Pixabay** (Pixabay License)](https://pixabay.com/sound-effects/):
+
+<details>
+<summary>📋 Detailed Breakdown by Category</summary>
+
+| Category | Folder | Standard Sounds | "Funny" Mode | Example Events |
+| :--- | :--- | :---: | :---: | :--- |
+| **Weapons** | `sounds/weapon/` | 21 | 8 | Melee and sword swings, bow and ranged shots, misses, misfires |
+| **Opposed Tests** | `sounds/opposed/` | 16 | 7 | Shield blocks, dodges, parries (standard and metal) |
+| **Hits & Damage** | `sounds/hit/` | 15 | 9 | Hits on flesh and plate, critical hits, damage soaked by armour, dropping to 0 Wounds |
+| **Skills** | `sounds/skill/` | 18 | 5 | Critical successes and fumbles, Consume Alcohol (success/fail), Gossip, Stealth (success/fail) |
+| **Equipment** | `sounds/item/` | 13 | 3 | Equipping armour, equipping and unequipping weapons, clinking coins |
+| **Magic** | `sounds/magic/` | 10 | 6 | Channelling winds, casting generic and damage spells, minor miscasts |
+| **Combat** | `sounds/combat/` | 3 | — | Start of combat round |
+| **Prayers** | `sounds/prayer/` | — | — | *Folder prepared; sounds in development* |
+
+</details>
+
+---
+
+<a id="en-setup"></a>
+### 🛠️ Setup & Custom Sounds
+
+1. Install and enable both **WFRP4e - Tools** and **WFRP4e - Sounds**.
+2. In **WFRP4e - Tools** settings, enable sound effects, and optionally adjust the volume and "Funny" mode.
+3. By default, the sounds path points to `modules/wfrp4e-sounds/sounds/`.
+
+<details>
+<summary>⚙️ How to Add or Replace Sounds</summary>
+
+If you want to build your own sound pack or expand the existing one:
+* **Supported formats:** `.ogg`, `.mp3`, `.wav`, `.webm`, `.flac`, `.m4a`.
+* **Event variations:** add a numeric suffix to a key from the reference (e.g., `sword_swing_1.ogg`, `sword_swing_2.ogg`) - the module will pick one at random.
+* **"Funny" mode:** place humorous alternatives with the same names into the `funny/` subfolder inside the target category (e.g., `sounds/hit/funny/crit_normal_1.ogg`).
+* **Updating the catalog:** after adding new files, open the **Debug Menu** in `WFRP4e - Tools` settings and click the rebuild sound catalog button, or simply reload the world.
+
+*Tip: to prevent your custom files from being overwritten during module updates, copy the `sounds` folder into your own directory inside Foundry Data and set that path in the `WFRP4e - Tools` sounds path setting.*
+
+</details>
+
+---
+
+<a id="en-contribute"></a>
+### 🤝 Contributing
+
+The sound library keeps growing - you can help expand it!
+* Check out the **[Reference](https://docs.google.com/spreadsheets/d/1FwN79LzXZ7cuEs-CFIIxmvJt3y-iPkPzE3fYUNER9B8/edit?usp=sharing)** to see which sounds are currently missing.
+* High-quality sounds under free licenses (e.g., from [Freesound](https://freesound.org/) or [Pixabay](https://pixabay.com/)) or your own recordings *(without using generative AI)* are welcome.
+* Send suggestions and sound packs via our **[Discord](https://discord.gg/tPrYvW7)** or GitHub.
+
+---
+
+<a id="en-modules"></a>
+### 🧩 Related Modules
+
+* **[WFRP4e - Tools](https://github.com/nPocToI4eJI/wfrp4e-tools)** *(required)* - core toolkit, quality-of-life, and bugfix module for **Warhammer Fantasy Roleplay 4th Edition** on Foundry VTT.
+* **[WFRP4e - Assistant](https://github.com/nPocToI4eJI/wfrp4e-assistant)** - allows the GM to diversify NPCs and their roleplay using built-in automation tools.
+* **[WFRP4e - Looting](https://github.com/nPocToI4eJI/wfrp4e-looting)** - helps the GM streamline the process of creating unique loot.
