@@ -1,0 +1,51 @@
+{
+	"id": "wfrp4e-sounds",
+	"title": "WFRP4e - Sounds",
+	"description": "<p>Этот модуль содержит звуковые файлы, адаптированные для Звуковой системы WFRP4e - Tools.</p>&#10;&#10;<p>This module contains sound files tailored for the WFRP4e - Tools Audio System.</p>",
+	"version": "13.2.0",
+	"compatibility": {
+		"minimum": "13",
+		"verified": "13.351"
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id": "wfrp4e",
+				"type": "system",
+				"manifest": "https://github.com/moo-man/WFRP4e-FoundryVTT/releases/latest/download/system.json",
+				"compatibility": {
+					"minimum": "9",
+					"verified": "9.6.4"
+				}
+			}
+		],
+		"modules": [
+			{
+				"id": "wfrp4e-tools",
+				"type": "module",
+				"manifest": "https://github.com/nPocToI4eJI/wfrp4e-tools/releases/latest/download/module.json",
+				"compatibility": {
+					"minimum": "13.1.0",
+					"verified": "13.1.0"
+				}
+			}
+		]
+	},
+	"authors": [
+		{
+			"name": "nPocTo_4eJI",
+			"url": "https://www.youtube.com/@nPocTo_4eJI",
+			"discord": "npocto_4eji"
+		}
+	],
+	"languages": [
+		{"lang": "en", "name": "English", "path": "lang/en.json"},
+		{"lang": "ru", "name": "Russian", "path": "lang/ru.json"}
+	],
+	"esmodules": [
+		"/sounds.js"
+	],
+	"url": "https://github.com/nPocToI4eJI/wfrp4e-sounds",
+	"manifest": "https://github.com/nPocToI4eJI/wfrp4e-sounds/releases/download/13.2.0/module.json",
+	"download": "https://github.com/nPocToI4eJI/wfrp4e-sounds/releases/download/13.2.0/wfrp4e-sounds.zip"
+}
