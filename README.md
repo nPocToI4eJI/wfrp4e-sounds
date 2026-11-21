@@ -43,7 +43,7 @@
 
 Пакет активно наполняется и расширяется. Актуальный список всех **поддерживаемых звуковых ключей**, статус их готовности, правила именования и инструкция по подбору файлов ведутся в общей Google Таблице:
 
-> **[📖 Открыть «WFRP4e Tools [Звуковая система] - Справочник» (Google Таблица)](https://docs.google.com/spreadsheets/d/1FwN79LzXZ7cuEs-CFIIxmvJt3y-iPkPzE3fYUNER9B8/edit?usp=sharing)**
+> **[📖 Открыть «WFRP4e Sounds - Справочник»](https://docs.google.com/spreadsheets/d/1FwN79LzXZ7cuEs-CFIIxmvJt3y-iPkPzE3fYUNER9B8/edit?usp=sharing)**
 
 В таблице вы найдёте:
 * Полный перечень категорий, папок и ключей файлов для всех игровых событий.
@@ -102,7 +102,7 @@
 ### 🤝 Помощь проекту
 
 Библиотека звуков продолжает расти - вы можете помочь с её наполнением!
-* Загляните в **[Справочник (Google Таблица)](https://docs.google.com/spreadsheets/d/1FwN79LzXZ7cuEs-CFIIxmvJt3y-iPkPzE3fYUNER9B8/edit?usp=sharing)**, чтобы увидеть, каких звуков сейчас не хватает.
+* Загляните в **[Справочник](https://docs.google.com/spreadsheets/d/1FwN79LzXZ7cuEs-CFIIxmvJt3y-iPkPzE3fYUNER9B8/edit?usp=sharing)**, чтобы увидеть, каких звуков сейчас не хватает.
 * Подходят качественные звуки со свободными лицензиями (например, с [Freesound](https://freesound.org/) или [Pixabay](https://pixabay.com/)) или собственные записи *(без использования генеративного ИИ)*.
 * Присылайте предложения и подборки в наш **[Discord](https://discord.gg/tPrYvW7)** или через GitHub.
 
@@ -110,7 +110,7 @@
 
 <a id="ru-modules"></a>
 ### 🧩 Связанные модули
-* 
+
 * **[WFRP4e - Tools](https://github.com/nPocToI4eJI/wfrp4e-tools)** *(обязателен)* - базовый модуль инструментов, улучшений и исправлений для системы **Warhammer Fantasy Roleplay 4th Edition** в Foundry VTT.
 * **[WFRP4e - Assistant](https://github.com/nPocToI4eJI/wfrp4e-assistant)** - этот модуль позволит Мастеру разнообразить НИП и их отыгрыш с помощью встроенных инструментов автоматизации.
 * **[WFRP4e - Looting](https://github.com/nPocToI4eJI/wfrp4e-looting)** - этот модуль поможет Мастеру оптимизировать процесс создания уникального лута.
