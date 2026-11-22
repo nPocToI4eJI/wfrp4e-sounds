@@ -35,6 +35,7 @@
 - [Подключение и собственные звуки](#ru-setup)
 - [Помощь проекту](#ru-contribute)
 - [Связанные модули](#ru-modules)
+- [Особые благодарности](#ru-thanks)
 
 ---
 
@@ -61,14 +62,14 @@
 
 | Категория | Папка | Обычные звуки | «Смешной» режим | Примеры событий |
 | :--- | :--- | :---: | :---: | :--- |
-| **Оружие** | `sounds/weapon/` | 21 | 8 | Взмахи в ближнем бою и мечом, выстрелы из лука и дистанционного оружия, промахи, осечки |
-| **Встречные проверки** | `sounds/opposed/` | 16 | 7 | Блок щитом, уклонение, парирование (обычное и металлическое) |
-| **Попадания и урон** | `sounds/hit/` | 15 | 9 | Попадания по плоти и латам, криты, поглощение урона бронёй, падение в 0 ран |
-| **Навыки** | `sounds/skill/` | 18 | 5 | Критические успехи и провалы, Кутёж (успех/провал), Сплетни, Скрытность (успех/провал) |
-| **Снаряжение** | `sounds/item/` | 13 | 3 | Надевание брони, экипировка и снятие оружия, звон монет |
-| **Магия** | `sounds/magic/` | 10 | 6 | Концентрация ветров, сотворение обычных и боевых заклинаний, малые проявления Хаоса |
-| **Бой** | `sounds/combat/` | 3 | — | Начало раунда боя |
-| **Молитвы** | `sounds/prayer/` | — | — | *Папка подготовлена; звуки в разработке* |
+| **Оружие** | `sounds/weapon/` | 52 | 16 | Взмахи (мечи, топоры, молоты, кинжалы, рапиры, древковое, кнуты), выстрелы (луки, арбалеты, инженерия, метание), перезарядка, промахи, осечки, атаки чертами существ |
+| **Встречные проверки** | `sounds/opposed/` | 27 | 10 | Блок щитом (ближний/дальний бой), уклонение, промахи в ближнем бою, парирование (металл, дерево, тяжёлое, безоружное, крит) |
+| **Попадания и урон** | `sounds/hit/` | 30 | 14 | Попадания по плоти, коже, кольчуге и латам, типы урона (рубящий, колющий, дробящий, пули), криты и пробитие, поглощение бронёй, падение в 0 ран |
+| **Навыки** | `sounds/skill/` | 25 | 16 | Критические успехи и провалы, Кутёж, Скрытность, Подкуп, Артистизм, Азартные игры, Сплетни, Взлом, Верховая езда (в «Смешном» режиме также Обаяние, Лазание, Лечение, Наблюдательность, Ловкость рук) |
+| **Снаряжение** | `sounds/item/` | 32 | 6 | Надевание и снятие брони (ткань, кожа, кольчуга, латы), щитов, оружия и предметов, повреждение снаряжения, запоминание и забывание заклинаний, звон монет |
+| **Магия** | `sounds/magic/` | 31 | 17 | Концентрация ветров (успех/провал), сотворение обычных, боевых и школьных заклинаний (Огонь, Небеса, Тени, Звери, Некромантия, Демонология, Хаос, Вааагх!, Великая Пасть и др.), малые, серьёзные и катастрофические проявления Хаоса |
+| **Бой** | `sounds/combat/` | 6 | — | Начало боя, начало раунда, «Уход в защиту» |
+| **Молитвы** | `sounds/prayer/` | 6 | 3 | Благословения, чудеса, боевые молитвы, провал молитвы, Гнев Богов |
 
 </details>
 
@@ -115,6 +116,12 @@
 
 ---
 
+<a id="ru-thanks"></a>
+### 🙏 Особые благодарности
+- **Вова** _(tehno_mag)_, за поиск звуков для модуля.
+
+---
+
 <a id="-english"></a>
 
 **WFRP4e - Sounds** is a sound effects pack for **Warhammer Fantasy Roleplay 4th Edition** on Foundry VTT, built specifically for the audio system of **[WFRP4e - Tools](https://github.com/nPocToI4eJI/wfrp4e-tools)**. It adds context-aware audio feedback for combat, skill tests, magic, equipment, and critical events, including alternative sounds for "Funny" mode.
@@ -128,6 +135,7 @@
 - [Setup & Custom Sounds](#en-setup)
 - [Contributing](#en-contribute)
 - [Related Modules](#en-modules)
+- [Special Thanks](#en-thanks)
 
 ---
 
@@ -154,14 +162,14 @@ The module currently includes **134 sound files** (96 standard and 38 for "Funny
 
 | Category | Folder | Standard Sounds | "Funny" Mode | Example Events |
 | :--- | :--- | :---: | :---: | :--- |
-| **Weapons** | `sounds/weapon/` | 21 | 8 | Melee and sword swings, bow and ranged shots, misses, misfires |
-| **Opposed Tests** | `sounds/opposed/` | 16 | 7 | Shield blocks, dodges, parries (standard and metal) |
-| **Hits & Damage** | `sounds/hit/` | 15 | 9 | Hits on flesh and plate, critical hits, damage soaked by armour, dropping to 0 Wounds |
-| **Skills** | `sounds/skill/` | 18 | 5 | Critical successes and fumbles, Consume Alcohol (success/fail), Gossip, Stealth (success/fail) |
-| **Equipment** | `sounds/item/` | 13 | 3 | Equipping armour, equipping and unequipping weapons, clinking coins |
-| **Magic** | `sounds/magic/` | 10 | 6 | Channelling winds, casting generic and damage spells, minor miscasts |
-| **Combat** | `sounds/combat/` | 3 | — | Start of combat round |
-| **Prayers** | `sounds/prayer/` | — | — | *Folder prepared; sounds in development* |
+| **Weapons** | `sounds/weapon/` | 52 | 16 | Swings (swords, axes, hammers, daggers, fencing, polearms, whips), ranged shots (bows, crossbows, engineering, throwing), reloading, misses, misfires, creature trait attacks |
+| **Opposed Tests** | `sounds/opposed/` | 27 | 10 | Shield blocks (melee/ranged), dodges, melee misses, parries (metal, wood, heavy, unarmed, critical) |
+| **Hits & Damage** | `sounds/hit/` | 30 | 14 | Hits on flesh, leather, mail, and plate, damage types (slashing, piercing, blunt, bullets), crits & impales, armour soak, dropping to 0 Wounds |
+| **Skills** | `sounds/skill/` | 25 | 16 | Critical successes & fumbles, Consume Alcohol, Stealth, Bribery, Entertain, Gamble, Gossip, Pick Lock, Ride (plus Charm, Climb, Heal, Perception, and Sleight of Hand in "Funny" mode) |
+| **Items & Gear** | `sounds/item/` | 32 | 6 | Equipping & unequipping armour (cloth, leather, mail, plate), shields, weapons & items, gear damage, memorizing & unmemorizing spells, jingling coins |
+| **Magic** | `sounds/magic/` | 31 | 17 | Channelling (success/fail), generic, damage & Lore-specific spells (Fire, Heavens, Shadow, Beasts, Necromancy, Daemonology, Chaos, Waaagh!, Great Maw, etc.), minor, major & catastrophic miscasts |
+| **Combat** | `sounds/combat/` | 6 | — | Combat start, round start, "Defending" |
+| **Prayers** | `sounds/prayer/` | 6 | 3 | Blessings, miracles, damaging prayers, failed prayers, Wrath of the Gods |
 
 </details>
 
@@ -205,3 +213,9 @@ The sound library keeps growing - you can help expand it!
 * **[WFRP4e - Tools](https://github.com/nPocToI4eJI/wfrp4e-tools)** *(required)* - core toolkit, quality-of-life, and bugfix module for **Warhammer Fantasy Roleplay 4th Edition** on Foundry VTT.
 * **[WFRP4e - Assistant](https://github.com/nPocToI4eJI/wfrp4e-assistant)** - allows the GM to diversify NPCs and their roleplay using built-in automation tools.
 * **[WFRP4e - Looting](https://github.com/nPocToI4eJI/wfrp4e-looting)** - helps the GM streamline the process of creating unique loot.
+
+---
+
+<a id="en-thanks"></a>
+### 🙏 Special Thanks
+- **Vova** _(tehno_mag)_, for finding sounds for the module.
