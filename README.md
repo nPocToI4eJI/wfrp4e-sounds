@@ -55,7 +55,7 @@
 <a id="ru-contents"></a>
 ### 📂 Содержимое пакета
 
-На текущий момент модуль включает **134 звуковых файла** (96 основных и 38 для «Смешного» режима). Все звуки взяты с [**Freesound** (CC0)](https://freesound.org/) и [**Pixabay** (Pixabay License)](https://pixabay.com/sound-effects/):
+На текущий момент модуль включает **291 звуковых файла** (209 основных и 82 для «Смешного» режима). Все звуки взяты с [**Freesound** (CC0)](https://freesound.org/) и [**Pixabay** (Pixabay License)](https://pixabay.com/sound-effects/):
 
 <details>
 <summary>📋 Подробный состав по категориям</summary>
@@ -113,6 +113,7 @@
 * **[WFRP4e - Tools](https://github.com/nPocToI4eJI/wfrp4e-tools)** *(обязателен)* - базовый модуль инструментов, улучшений и исправлений для системы **Warhammer Fantasy Roleplay 4th Edition** в Foundry VTT.
 * **[WFRP4e - Assistant](https://github.com/nPocToI4eJI/wfrp4e-assistant)** - этот модуль позволит Мастеру разнообразить НИП и их отыгрыш с помощью встроенных инструментов автоматизации.
 * **[WFRP4e - Looting](https://github.com/nPocToI4eJI/wfrp4e-looting)** - этот модуль поможет Мастеру оптимизировать процесс создания уникального лута.
+* **[WFRP4e - Print sheet](https://github.com/nPocToI4eJI/wfrp4e-print-sheet)** - модуль для экспорта листов персонажей и НИП из **Warhammer Fantasy Roleplay 4th Edition** в автономные редактируемые HTML-файлы.
 
 ---
 
@@ -155,7 +156,7 @@ In the spreadsheet, you will find:
 <a id="en-contents"></a>
 ### 📂 Pack Contents
 
-The module currently includes **134 sound files** (96 standard and 38 for "Funny" mode). All sounds are sourced from [**Freesound** (CC0)](https://freesound.org/) and [**Pixabay** (Pixabay License)](https://pixabay.com/sound-effects/):
+The module currently includes **291 sound files** (209 standard and 82 for "Funny" mode). All sounds are sourced from [**Freesound** (CC0)](https://freesound.org/) and [**Pixabay** (Pixabay License)](https://pixabay.com/sound-effects/):
 
 <details>
 <summary>📋 Detailed Breakdown by Category</summary>
@@ -213,6 +214,7 @@ The sound library keeps growing - you can help expand it!
 * **[WFRP4e - Tools](https://github.com/nPocToI4eJI/wfrp4e-tools)** *(required)* - core toolkit, quality-of-life, and bugfix module for **Warhammer Fantasy Roleplay 4th Edition** on Foundry VTT.
 * **[WFRP4e - Assistant](https://github.com/nPocToI4eJI/wfrp4e-assistant)** - allows the GM to diversify NPCs and their roleplay using built-in automation tools.
 * **[WFRP4e - Looting](https://github.com/nPocToI4eJI/wfrp4e-looting)** - helps the GM streamline the process of creating unique loot.
+* **[WFRP4e - Print sheet](https://github.com/nPocToI4eJI/wfrp4e-print-sheet)** - is a module for exporting character and NPC sheets from **Warhammer Fantasy Roleplay 4th Edition** into standalone, editable HTML files.
 
 ---
 
